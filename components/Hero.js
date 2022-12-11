@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
             <div className='relative flex-1'>
                 <img className='absolute left-3' src='assets/Rectangle 961card.png' alt='hang_image'/>
-                <img src='assets/hand_01.png' alt='hang_image'/>
+                <img src='assets/hand_01.png' alt='hand_image'/>
             </div>
             <button className='absolute text-white bottom-8 right-2 lg:left-4 p-2 ring-4 ring-wallet_green opacity-60 rounded-md hover:opacity-100'>How it works &#x2F2;</button>
             </div>
