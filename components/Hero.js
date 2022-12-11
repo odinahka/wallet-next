@@ -1,6 +1,4 @@
 import React from 'react';
-import apple from './svg/apple.svg';
-import store from './svg/playstore.svg';
 
 const Hero = () => {
     return (
@@ -13,8 +11,8 @@ const Hero = () => {
                 <p>Buy airtime, pay bills, perform money transfers and make seamless payments everywhere from your digital wallet and with our magic VISA cards</p>
                 <div className='flex flex-row items-start mt-3 space-x-4'>
                     <button className='text-white bg-wallet_blue p-4 rounded-md'>Get Started</button>
-                    <div className='bg-white p-3 rounded-md hover:cursor-pointer' ><img src={apple} className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
-                    <div className='bg-white p-3 rounded-md hover:cursor-pointer'><img src={store} className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
+                    <div className='bg-white p-3 rounded-md hover:cursor-pointer' ><img src='apple.svg' className='bg-wallet_green h-6 w-8 sm:h-8 rounded-full object-contain' alt='apple'/></div>
+                    <div className='bg-white p-3 rounded-md hover:cursor-pointer'><img src='playstore.svg'className='bg-wallet_green h-6 w-8 sm:h-8 rounded-full object-contain' alt='apple'/></div>
                 </div>
             </div>
             <div className='relative flex-1'>

@@ -1,7 +1,5 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
-import apple from './svg/apple.svg';
-import store from './svg/playstore.svg';
 
 const Footer = () => {
     return (
@@ -17,8 +15,8 @@ const Footer = () => {
                     <p className='text-sm lg:text-base xl:text-lg'>Next generation financial services right in your pocket.</p>
                     <p className='text-sm lg:text-base xl:text-lg'>Download Wallets Africa on all platforms now.</p>
                     <div className='my-3 flex space-x-2 '>
-                    <div className='bg-white p-3 rounded-md hover:cursor-pointer' ><img src={apple} className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
-                    <div className='bg-white p-3 rounded-md hover:cursor-pointer'><img src={store} className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
+                    <div className='bg-white p-3 rounded-md hover:cursor-pointer' ><img src='apple.svg' className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
+                    <div className='bg-white p-3 rounded-md hover:cursor-pointer'><img src='playstore.svg'className='bg-wallet_green h-8 w-8 rounded-full object-contain' alt='apple'/></div>
 
                     </div>
                 </div>
