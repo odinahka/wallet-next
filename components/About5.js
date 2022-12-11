@@ -15,7 +15,7 @@ const About5 = () => {
                 <div className='my-20'>
                     <div className='pl-20 text-center'>
                     <h2 className='text-white opacity-40'>
-                        The Wallets payroll is seamless, the cards & sub wallets allow us to be flexible with payments and imprest to people outside of the main founding team. Hands down the Wallet team is the most responsive and customer centric team I have ever worked with. Similar to Amazon's focus on the customer I see Wallets having that same outlook
+                        The Wallets payroll is seamless, the cards & sub wallets allow us to be flexible with payments and imprest to people outside of the main founding team. Hands down the Wallet team is the most responsive and customer centric team I have ever worked with. Similar to Amazon focus on the customer I see Wallets having that same outlook
                     </h2>    
                     </div>
                 </div>
