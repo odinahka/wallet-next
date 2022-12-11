@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@layer base {
+  .animation-delay-2000{
+    animation-delay: 2s;
+  }
+  .animation-delay-4000{
+    animation-delay: 4s;
+  }
+  .container{
+    @apply mx-auto;
+  }
+  h1{
+    @apply mb-6 text-3xl sm:text-5xl xl:text-6xl;
+  }
+  h2{
+    @apply mb-3 text-2xl sm:text-3xl md:text-4xl xl:text-5xl;
+  }
+  h3{
+    @apply mb-2 text-xl md:text-2xl xl:text-3xl;
+  }
+  p{
+    @apply text-sm sm:text-lg md:text-xl xl:text-2xl;
+  }
+  li{
+    @apply mb-4 text-xs sm:text-sm md:text-lg xl:text-xl;
+  }
+}
