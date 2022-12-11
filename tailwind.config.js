@@ -48,7 +48,7 @@ module.exports = {
         wallet_green: '#00C9B6'
       },
       backgroundImage:{
-        'about1_pic': "url('/public/assets/Rectangle 12995.png')"
+        'about1_pic': "url('../public/assets/Rectangle 12995.png')"
       },
       flex: {
         '2': '2 2 0%',
