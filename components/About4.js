@@ -4,7 +4,7 @@ const About4 = () => {
     return (
         <div className='bg-white h-screen w-screen flex flex-col justify-center'>
             <div className='flex-1 mt-10'>
-                <h2 className='font-bold text-center'>Positive banking at your fingertips.</h2>
+                <h1 className='font-bold text-center'>Positive banking at your fingertips.</h1>
                 <div className='flex flex-row items-center justify-center divide-x divide-slate-300'>
                     <button className='bg-slate-200 p-2 hover:bg-slate-300' >Mobile App</button>
                     <button className='bg-slate-200 p-2 hover:bg-slate-300' >Web App</button>
