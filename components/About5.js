@@ -3,7 +3,7 @@ import React from 'react';
 const About5 = () => {
     return (
         <div className='h-screen w-screen bg-wallet_black'>
-            <div className='container text-white'>
+            <div className='container text-white flex flex-col items-stretch justify-between'>
                 <div className='mt-10 pt-20'>
                     <h2 className='opacity-60'>
                         What our customers are saying...
@@ -13,7 +13,7 @@ const About5 = () => {
                     </p>
                 </div>
                 <div className='my-20'>
-                    <div className='pl-14 text-center'>
+                    <div className='pl-7 sm:pl-14 text-center'>
                     <h2 className='text-white opacity-40'>
                         The Wallets payroll is seamless, the cards & sub wallets allow us to be flexible with payments and imprest to people outside of the main founding team. Hands down the Wallet team is the most responsive and customer centric team I have ever worked with. Similar to Amazon focus on the customer I see Wallets having that same outlook
                     </h2>    

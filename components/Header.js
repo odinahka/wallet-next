@@ -24,7 +24,7 @@ const Header = () => {
                     </li>
                 </ul>
                 <div className='bg-wallet_green rounded-sm hover:cursor-pointer'>
-                    <button className='text-white px-8 py-4'>Login</button>
+                    <button className='text-white px-4 py-3 sm:px-8 sm:py-4'>Login</button>
                 </div>
             </div>
         </header>
