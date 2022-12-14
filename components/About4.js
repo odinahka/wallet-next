@@ -9,9 +9,10 @@ const About4 = () => {
                     <button className='bg-slate-200 p-2 hover:bg-slate-300' >Mobile App</button>
                     <button className='bg-slate-200 p-2 hover:bg-slate-300' >Web App</button>
                 </div>
-                <div className='bg-wallet_green bg-opacity-30 mt-4 h-4/5 container'/>
-                <div className=' container mx-auto flex-1 flex items-center justify-center mt-2'>
-                    <p className='text-center pb-10'>Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua. Ut enim. Lorem ipsum dolor sit amet, consecteur adispiscing elit,</p>
+                <div className='bg-wallet_green bg-opacity-30 mt-4 h-3/4 container'/>
+                <div className=' container mx-auto flex-1 flex flex-col items-center justify-center mt-2'>
+                    <p className='text-center pb-2'>Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua. Ut enim. Lorem ipsum dolor sit amet, consecteur adispiscing elit,</p>
+                    <button className='p-2 bg-wallet_green rounded-md'>Sign up today, Win Cash Prize</button>
                 </div>
             </div>
         </div>
