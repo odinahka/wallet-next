@@ -31,7 +31,7 @@ const About5 = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex items-stretch justify-between mt-12 lg:mt-28'>
+                <div className='flex items-stretch justify-between mt-12 lg:mt-20'>
                     <div className='flex flew-row space-x-3'>
                         <div className='h-4 w-4 rounded-full bg-white opacity-80'/>
                         <div className='h-4 w-4 rounded-full bg-white opacity-20'/>
